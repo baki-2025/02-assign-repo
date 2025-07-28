@@ -73,7 +73,7 @@ body {
 .text-content h1 {
   font-size: 3rem;
   line-height: 1.2;
-  justify-content: space-between;
+  
 }
 
 .image-content img {
@@ -87,5 +87,27 @@ body {
     text-align: center;
 }
 #fresh-flower{
-    color: brown;
+    color: #e65100;
+}
+#our{
+    color: #e65100;
+}
+.container{
+    display: flex;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+}
+.flower-intro{
+    text-align: center;
+}
+.lili-flower{
+    width:90%;
+}
+.cart{
+    background-color: #e65100;
+    width: 90%;
+    border-radius: 30px;
+    margin: auto;
+    padding: 5px 2px;
+    gap: 20px;
 }
