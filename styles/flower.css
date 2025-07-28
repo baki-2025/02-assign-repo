@@ -207,7 +207,7 @@ body {
             text-align: center;
             flex: 2; 
             max-width: 1000px; 
-            height: 260px; 
+            height: 270px; 
             background-image: url(../B12A02-Responsive-Flowers/assets/deal-zabo.png);
             gap: 5px;        
         }
@@ -220,7 +220,7 @@ body {
             
         }
         .side-promo-top {
-            height: 130px; 
+            height: 110px; 
             background-image: url(../B12A02-Responsive-Flowers/assets/deal-bloom.png); /* Placeholder image */
         }
         .side-promo-bottom {
@@ -250,4 +250,28 @@ body {
         }
 .shop-button:hover {
             background-color: #eee;
-        }   
+        } 
+        .container2 {
+  background-image: url('../B12A02-Responsive-Flowers/assets/news-letter-bg.png'); 
+  background-size: cover;
+  text-align: center;
+  padding: 50px;
+  color: white;
+}
+
+.container2 h1 {
+  font-size: 2em;
+}
+
+.container2 input[type="email"] {
+  padding: 10px;
+  border: none;
+}
+
+.container2 button {
+  background-color: orange;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  cursor: pointer;
+}  
