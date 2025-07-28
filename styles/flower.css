@@ -274,4 +274,50 @@ body {
   padding: 10px 20px;
   border: none;
   cursor: pointer;
+}
+footer {
+    text-decoration: none;
+    display: flex;
+    justify-content: space-between; 
+    align-items: flex-start; 
+    padding: 20px;
+    background-color: #f8f8f8; 
+    font-family: sans-serif; 
+}
+
+.footer-left img {
+    width: 100px; 
+}
+.footer-middle a{
+    text-decoration: none;
+    color: black;
+}
+.footer-middle ul {
+    
+    list-style: none; 
+    padding: 0;
+    margin: 0;
+    display: inline-block; 
+    vertical-align: top; 
+    margin-right: 30px; 
+}
+
+.footer-middle li {
+    text-decoration: none;
+    margin-bottom: 10px;
+}
+
+.footer-right a img {
+    display: inline;
+    width: 30px; 
+    margin-left: 10px; 
+}
+
+.footer-bottom {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    margin-top: 20px;
+    border-top: 1px solid #eee; 
+    padding-top: 10px;
 }  
