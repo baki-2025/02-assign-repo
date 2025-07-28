@@ -177,3 +177,77 @@ body {
     line-height: 1.6;
     color: #555;
 }
+.sell{
+    font-size: 3rem;
+    text-align: center;
+}
+.ask{
+    font-size: 1rem;
+}
+
+ .capacity {
+            display: flex;
+            gap: 20px;
+            flex-wrap: wrap;
+            max-width: 1200px; 
+}
+.promo-card {
+            background-size: cover;
+            background-position: center;
+            color: white;
+            padding: 20px;
+            border-radius: 10px;
+            display: flex;
+            flex-direction: column;
+            justify-content: flex-end;
+            text-shadow: 1px 1px 3px rgba(0,0,0,0.7);
+            box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+        }
+        .main-promo {
+            text-align: center;
+            flex: 2; 
+            max-width: 1000px; 
+            height: 260px; 
+            background-image: url(../B12A02-Responsive-Flowers/assets/deal-zabo.png);
+            gap: 5px;        
+        }
+        .side-promos {
+            flex: 1; 
+            display: flex;
+            flex-direction: column;
+            gap: 10px;
+            min-width: 250px; 
+            
+        }
+        .side-promo-top {
+            height: 130px; 
+            background-image: url(../B12A02-Responsive-Flowers/assets/deal-bloom.png); /* Placeholder image */
+        }
+        .side-promo-bottom {
+            height: 110px;
+            background-image: url('../B12A02-Responsive-Flowers/assets/deal-ana.png'); /* Placeholder image */
+            
+        }
+        
+
+        .promo-card h2 {
+            margin: 0 0 10px 0;
+            font-size: 1.5em;
+        }
+        .promo-card p {
+            margin: 0 0 15px 0;
+            font-size: 1.1em;
+        }
+        .shop-button {
+            text-align: center;
+            color: white;
+            font-weight: bold;
+            
+            transition: background-color 0.3s ease;
+        }
+        #latest{
+            color: #e65100;
+        }
+.shop-button:hover {
+            background-color: #eee;
+        }   
